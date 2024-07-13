@@ -16,12 +16,12 @@ else:
         print("Good evening.It is ",a,"'O clock now.")
 
 
-# import time
-# timestamp=int(time.strftime('%H'))
-# print(timestamp)
-# if(1<=timestamp<12):
-#     print("Good Morning. The time is", timestamp,"'O clock now.")
-# elif(12<=timestamp<17):
-#      print("Good Afternoon. The time is", timestamp,"'O clock now.")
-# else:
-#       print("Good Evening. The time is", timestamp,"'O clock now.")
+import time
+timestamp=int(time.strftime('%H'))
+print(timestamp)
+if(1<=timestamp<12):
+    print("Good Morning. The time is", timestamp,"'O clock now.")
+elif(12<=timestamp<17):
+     print("Good Afternoon. The time is", timestamp,"'O clock now.")
+else:
+      print("Good Evening. The time is", timestamp,"'O clock now.")
