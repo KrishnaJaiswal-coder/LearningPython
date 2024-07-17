@@ -10,9 +10,18 @@ def average (*numbers):
     print("The average is", sum/len(numbers))
 average(4,5,6,6)
 
-#2)Keyword Arbitary Arguments (takes the argument as a dictionary)
+# #2)Keyword Arbitary Arguments (takes the argument as a dictionary)
 
 def Name(**name):
-    print(type(Name))
-    print("Hello",name["fname"],name["mname"], name["Lname"],".Your id is",name["id"])
-Name(fname="Krishna",Lname="Jaiswal",mname="kumar", id="07123")
+    print(type(name))
+    print("Hello",name["fname"],name["mname"], name["Lname"])
+Name(fname="Krishna",Lname="Jaiswal",mname="kumar")
+
+# return function in python
+def average (*numbers):
+    sum=0
+    for i in numbers:
+        sum=sum + i
+    return sum/len(numbers)
+c=average(4,5,6,6)
+print(c)
